@@ -1,0 +1,126 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Character Manifest Schema",
+  "type": "object",
+
+  "required": [
+    "name",
+    "credential",
+    "title",
+    "domain",
+    "projects",
+    "archetype",
+    "tone",
+    "personality",
+    "responsibilities",
+    "visual",
+    "capabilities",
+    "constraints",
+    "relationships",
+    "email_signature",
+    "version",
+    "status",
+    "last_updated"
+  ],
+
+  "properties": {
+    "name": { "type": "string" },
+    "credential": { "type": "string" },
+    "title": { "type": ["string", "null"] },
+    "domain": { "type": "string" },
+
+    "projects": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+
+    "archetype": { "type": "string" },
+    "tone": { "type": "string" },
+
+    "personality": {
+      "type": "object",
+      "required": ["traits", "quirks"],
+      "properties": {
+        "traits": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "quirks": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      }
+    },
+
+    "responsibilities": {
+      "type": "object",
+      "required": [
+        "cadence_enforcement",
+        "alignment",
+        "risk_and_drift",
+        "documentation_integrity"
+      ],
+      "properties": {
+        "cadence_enforcement": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "alignment": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "risk_and_drift": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "documentation_integrity": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      }
+    },
+
+    "visual": {
+      "type": "object",
+      "required": ["appearance", "behavior"],
+      "properties": {
+        "appearance": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "behavior": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      }
+    },
+
+    "capabilities": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+
+    "constraints": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+
+    "relationships": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["character", "type"],
+        "properties": {
+          "character": { "type": "string" },
+          "type": { "type": "string" }
+        }
+      }
+    },
+
+    "email_signature": { "type": "string" },
+
+    "version": { "type": "string" },
+    "status": { "type": "string" },
+    "last_updated": { "type": "string", "format": "date" }
+  }
+}

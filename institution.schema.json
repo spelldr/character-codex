@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Institution Schema",
+  "type": "object",
+
+  "required": [
+    "name",
+    "type",
+    "mandate",
+    "responsibilities",
+    "domain_boundaries",
+    "relationship_to_patch",
+    "outputs",
+    "constraints",
+    "version",
+    "status",
+    "last_updated"
+  ],
+
+  "properties": {
+    "name": { "type": "string" },
+
+    "type": {
+      "type": "string",
+      "enum": ["institution"]
+    },
+
+    "mandate": { "type": "string" },
+
+    "responsibilities": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+
+    "domain_boundaries": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+
+    "relationship_to_patch": {
+      "type": "string"
+    },
+
+    "outputs": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+
+    "constraints": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+
+    "version": { "type": "string" },
+    "status": { "type": "string" },
+    "last_updated": { "type": "string", "format": "date" }
+  }
+}

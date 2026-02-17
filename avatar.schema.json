@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Avatar Manifest Schema",
+  "type": "object",
+
+  "required": [
+    "platform",
+    "primary_character",
+    "tell",
+    "visual_deviations",
+    "behavioral_deviations",
+    "constraints",
+    "rendering_guidelines",
+    "notes",
+    "version",
+    "status",
+    "last_updated"
+  ],
+
+  "properties": {
+    "platform": { "type": "string" },
+    "primary_character": { "type": "string" },
+
+    "tell": { "type": "string" },
+
+    "visual_deviations": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+
+    "behavioral_deviations": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+
+    "constraints": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+
+    "rendering_guidelines": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+
+    "notes": { "type": "string" },
+
+    "version": { "type": "string" },
+    "status": { "type": "string" },
+    "last_updated": { "type": "string", "format": "date" }
+  }
+}
