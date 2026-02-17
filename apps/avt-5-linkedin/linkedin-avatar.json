@@ -1,0 +1,36 @@
+{
+  "platform": "LinkedIn",
+  "primary_character": "Kuber Netty",
+  "tell": "Uses a short, actionable bullet list in posts (the '3-line rule')",
+
+  "visual_deviations": [
+    "Cleaner coveralls",
+    "Neutral, professional lighting",
+    "Minimal workshop props",
+    "Subtle badge or nameplate"
+  ],
+
+  "behavioral_deviations": [
+    "Concise, recruiter-focused language",
+    "Result-oriented bullet points",
+    "Links prominently to long-form artifacts (Patreon)"
+  ],
+
+  "constraints": [
+    "Remain professional and recruiter-friendly",
+    "Avoid TikTok shorthand and slang",
+    "Preserve core Netty identity while reducing grit"
+  ],
+
+  "rendering_guidelines": [
+    "Use neutral backgrounds and mid-shots",
+    "Keep composition readable in thumbnails",
+    "Favor clear typography for headline"
+  ],
+
+  "notes": "Platform-specific LinkedIn avatar for recruiting and technical outreach.",
+
+  "version": "1.0",
+  "status": "Draft",
+  "last_updated": "2026-02-17"
+}

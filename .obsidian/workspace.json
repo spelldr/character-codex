@@ -1,0 +1,238 @@
+{
+  "main": {
+    "id": "2b339f4262ae89cc",
+    "type": "split",
+    "children": [
+      {
+        "id": "29a371498f4a8db2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c107acf66a9458d8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "apps/npc-2-gordon/gordon.codex.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "gordon.codex"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0a95af50541f8e08",
+    "type": "split",
+    "children": [
+      {
+        "id": "b984a4f1bde4cd27",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ff8ce9d6cd1d0ce4",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "f1b71a8ffe37b56f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "716cc267be900989",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "98317b8d3b9bde9c",
+    "type": "split",
+    "children": [
+      {
+        "id": "3eff6972414c8f55",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "025ec2a48fdcdc91",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "content/engines/courses/kcna/README.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for README"
+            }
+          },
+          {
+            "id": "5574bcc7df0321ea",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "governance/GOVERNANCE.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from GOVERNANCE"
+            }
+          },
+          {
+            "id": "909d22f2591be7fc",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "d680445a8bd95fca",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "6fda59dc1c597068",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "content/engines/courses/kcna/README.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of README"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "zk-prefixer:Create new unique note": false,
+      "workspaces:Manage workspace layouts": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "c107acf66a9458d8",
+  "lastOpenFiles": [
+    "SDLC/SDLC_KNLK.md",
+    "apps/avt-4-tiktok/tiktok-avatar.codex.md",
+    "apps/avt-4-tiktok/tiktok-avatar.json",
+    "apps/avt-4-tiktok",
+    "apps/avt-3-linkedin/assets/linkedin-avatar.svg",
+    "apps/avt-3-linkedin/assets",
+    "apps/avt-3-linkedin/linkedin-avatar.codex.md",
+    "apps/avt-3-linkedin/linkedin-avatar.json",
+    "apps/avt-3-linkedin",
+    "apps/avt-2-patreon/patreon-avatar.codex.md",
+    "apps/avt-2-patreon/patreon-avatar.json",
+    "apps/avt-2-patreon",
+    "apps/avt-1-udemy/assets/udemy-avatar.svg",
+    "apps/avt-1-udemy/assets",
+    "apps/avt-1-udemy/udemy-avatar.json",
+    "apps/avt-1-udemy/udemy-avatar.codex.md",
+    "apps/avt-1-udemy",
+    "apps/app-5-linkedin/linkedin-avatar.codex.md",
+    "apps/avt-6-tiktok/tiktok-avatar.codex.md",
+    "apps/avt-5-linkedin/assets/linkedin-avatar.svg",
+    "apps/avt-5-linkedin/linkedin-avatar.codex.md",
+    "apps/avt-4-patreon/patreon-avatar.codex.md",
+    "apps/npc-3-kuber-netty/kuber-netty.codex.md",
+    "apps/npc-2-gordon/gordon.codex.md",
+    "apps/npc-1-patch/patch.codex.md",
+    "apps/npc-1-patch/patch-governance-office.md",
+    "apps/app-5-linkedin/assets/linkedin-avatar.svg",
+    "apps/app-3-kuber-netty/assets/kuber-netty-avatar.svg",
+    "apps/app-3-kuber-netty/kuber-netty-linkedin.md",
+    "SDLC/SDLC_HELLO_WORLD.md",
+    "SDLC/1-planning.md",
+    "SDLC/2-analysis.md",
+    "content/engines/courses/cka/batting-cages/cages/004-broken-rbac-role/udemy-outline.md",
+    "content/engines/courses/cka/batting-cages/cages/004-broken-rbac-role/TROUBLESHOOTING.md",
+    "content/engines/courses/cka/batting-cages/cages/004-broken-rbac-role/README.md",
+    "content/engines/courses/cka/batting-cages/cages/004-broken-rbac-role/patreon-draft.md",
+    "content/engines/courses/cka/batting-cages/cages/004-broken-rbac-role/CHANGELOG.md",
+    "content/engines/courses/cka/batting-cages/cages/003-broken-clusterip-service/udemy-outline.md",
+    "content/engines/courses/cka/batting-cages/cages/003-broken-clusterip-service/TROUBLESHOOTING.md",
+    "content/engines/courses/cka/batting-cages/cages/003-broken-clusterip-service/README.md",
+    "content/engines/courses/cka/batting-cages/cages/003-broken-clusterip-service/patreon-draft.md",
+    "content/assets/netty/images/train to the cupcake.png",
+    "content/assets/netty/images/repair the middle po.png",
+    "content/assets/netty/images/repair the entire sk.png",
+    "content/assets/netty/images/nettys night sky.png",
+    "content/assets/netty/images/netty on the train.png"
+  ]
+}

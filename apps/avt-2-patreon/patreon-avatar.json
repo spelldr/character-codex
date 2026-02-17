@@ -1,0 +1,48 @@
+{
+  "platform": "Patreon",
+  "primary_character": "Kuber Netty",
+
+  "tell": "Eyes slightly too glossy, like a reflection that doesn’t match the room",
+
+  "visual_deviations": [
+    "Smoother skin texture than Netty",
+    "Cleaner, less worn coveralls",
+    "Softer, studio-like lighting",
+    "Slower, more deliberate movements",
+    "Warmer tablet screen glow",
+    "More neatly trimmed beard"
+  ],
+
+  "behavioral_deviations": [
+    "Speaks slowly and clearly",
+    "Uses longer explanations",
+    "Minimal, controlled gestures",
+    "Rarely shows frustration",
+    "Straighter posture",
+    "Intentional pauses between steps"
+  ],
+
+  "constraints": [
+    "Must maintain calm, long-form instructional tone",
+    "Must avoid fast or exaggerated movements",
+    "Must match Patreon’s softer visual style",
+    "Must remain visually distinct from TikTok avatar",
+    "Must preserve the tell at all times",
+    "Must not mimic Netty perfectly"
+  ],
+
+  "rendering_guidelines": [
+    "Use warm, soft lighting",
+    "Keep background minimal and workshop-adjacent",
+    "Avoid high-contrast or high-motion framing",
+    "Maintain subtle separation from Netty’s true appearance",
+    "Ensure glossy-eye tell is visible",
+    "Use muted, Patreon-consistent palette"
+  ],
+
+  "notes": "This avatar is permanently bound to Kuber Netty and cannot be reassigned.",
+
+  "version": "1.0",
+  "status": "Canonical",
+  "last_updated": "2026-02-16"
+}
