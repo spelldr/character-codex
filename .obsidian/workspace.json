@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "SDLC/SDLC Starter Kit Packet.md",
-                "mode": "preview",
+                "file": "Consulting Packet/Consulting Workflow (rough).md",
+                "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "SDLC Starter Kit Packet"
+              "title": "Consulting Workflow (rough)"
             }
           }
         ]
@@ -164,14 +164,23 @@
               "icon": "lucide-list",
               "title": "Outline of README"
             }
+          },
+          {
+            "id": "e6547af1079d6371",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 391.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -183,13 +192,17 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "c107acf66a9458d8",
   "lastOpenFiles": [
-    "SDLC/README.md",
+    "SDLC/SDLC Starter Kit Packet.md",
+    "Consulting Packet/Consulting Workflow (rough).md",
+    "Consulting Packet",
     "README.md",
+    "SDLC/README.md",
     "SDLC/Characters/README.md",
     "SDLC/Characters/Gordon Client Onboarding Kit Templates/Gordon Annual Oversight Routine Checklist Template.md",
     "SDLC/Characters/Gordon Client Onboarding Kit Templates/Gordon Quarterly Oversight Routine Checklist Template.md",
@@ -205,7 +218,6 @@
     "SDLC/Characters/Gordon Client Onboarding Kit.md",
     "SDLC/KNLK-SDLC-Execution.md",
     "SDLC/KNLK-Project-Charter.md",
-    "SDLC/SDLC Starter Kit Packet.md",
     "SDLC/x.md",
     "SDLC/Patch.md",
     "SDLC/Characters/Patch.md",
@@ -216,14 +228,12 @@
     "SDLC/Characters",
     "SDLC/SDLC.md",
     "SDLC/KNLK Project Charter.md",
-    "SDLC/Kuber Netty, SRE.md",
     "apps/app-1-gordon/onboarding/policy-template.yaml",
     "apps/app-1-gordon/onboarding",
     "apps/app-1-gordon",
     "apps/gordon-onboarding",
     "apps/app-0-onboarding/gordon-onboarding",
     "apps/app-0-onboarding/responsibility.schema.json",
-    "apps/app-0-onboarding/workflows/patch",
     "apps/avt-3-linkedin/assets/linkedin-avatar.svg",
     "apps/avt-1-udemy/assets/udemy-avatar.svg",
     "apps/avt-5-linkedin/assets/linkedin-avatar.svg",
